@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Body styling end */
+header img{
+position: absolute;
+width: 100%;
+height: 150px;
+left: 0px;
+top: 0px;
+}
+/* header image styling end */
+
+.container{
+    margin-top: 150px;
+    background: #e6edf6;
+    height: 520px;
+    width: 100%;
+}
+
+.student-login-btn{
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: calc(50% - 216px/2);
+    top: calc(50% - 64px/2);
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+}
+
+.student-login-btn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.student-login-btn a:hover{
+    width: 195px;
+    height: 60px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+
+.teacher-login-btn{
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: calc(50% - 216px/2);
+    top: calc(50% - 64px/2 + 100px);
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+}
+
+.teacher-login-btn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.teacher-login-btn a:hover{
+    width: 195px;
+    height: 60px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+
+.newuserbtn{
+    position: absolute;
+    width: 150px;
+    height: 64px;
+    left: 1150px;
+    top: 157px;
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+}
+
+.newuserbtn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.newuserbtn a:hover{
+    width: 150px;
+    height: 60px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+/* logint buttons styling end */
