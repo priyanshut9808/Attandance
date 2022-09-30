@@ -6,13 +6,39 @@
 
 .container{
     position: absolute;
-    height: 580px;
+    height: 530px;
     width: 508px;
     top: 60px;
     left: 425px;
     background: #4C9AFF;
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+}
+
+.addbtn{
+    position: absolute;
+    border: 2px solid rgb(4, 122, 4);
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: rgb(4, 122, 4);
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 250px;
+}
+
+.removebtn{
+    position: absolute;
+    border: 2px solid red;
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: red;
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 350px;
 }
 
 input[type=text]{
@@ -68,7 +94,7 @@ a:hover{
 .newbox-1{
     position: absolute;
     width: 459px;
-    height: 520px;
+    height: 460px;
     left: 21px;
     top: 30px;
     background: #FFFFFF;
@@ -129,17 +155,6 @@ input[type=number]:focus{
 input[type=file]:focus{
 border-color: #0065FF;
 box-shadow: 0 0 8px 0 #0065FF;
-}
-
-.newlogin{
-    position: absolute;
-    width: 90px;
-    height: 38px;
-    right: 40px;
-    top: 470px;
-    background: #0747A6;
-    border-radius: 32px;
-    cursor: pointer;
 }
 
 a{
