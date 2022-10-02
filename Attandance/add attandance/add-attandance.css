@@ -279,7 +279,7 @@ input[type=file]:focus{
     height: 38px;
     right: 300px;
     top: 300px;
-    background: #1adf08;
+    background: green;
     border-radius: 32px;
     cursor: pointer;
 }

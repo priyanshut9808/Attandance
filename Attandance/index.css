@@ -143,7 +143,7 @@ nav ul li a{
     border-radius: 3px;
 }
 
-a.active, a:hover{
+.navigation .active a, .navigation a:hover{
     background-color: #ffffff;
     color: #0747A6;
     transition: .5s;
@@ -201,6 +201,7 @@ ul{
 	transition: all 0.3s ease;
     background: transparent;
 }
+
 .footer-col ul li a:hover{
 	
 	padding-left: 8px;
