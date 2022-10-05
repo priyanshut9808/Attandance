@@ -1,9 +1,12 @@
+/* WHOLE BODY STYLING STARTS */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* WHOLE BODY STYLING ENDS */
 
+/* CONTAINER SECTION STARTS */
 .container{
     position: absolute;
     height: 530px;
@@ -15,32 +18,31 @@
     border-radius: 5px;
 }
 
-.addbtn{
-    position: absolute;
-    border: 2px solid rgb(4, 122, 4);
-    height: 38px;
-    width: 90px;
-    padding: 8px 12px;
-    background-color: rgb(4, 122, 4);
-    border-radius: 35px;
-    text-align: center;
-    top: 410px;
-    left: 250px;
+.student-form{
+    margin-top: 65px;
 }
 
-.removebtn{
-    position: absolute;
-    border: 2px solid red;
-    height: 38px;
-    width: 90px;
-    padding: 8px 12px;
-    background-color: red;
-    border-radius: 35px;
-    text-align: center;
-    top: 410px;
-    left: 350px;
-}
+/* CONTAINER SECTION ENDS */
 
+/* HEADING SECTION STARTS */
+.newheading{
+    position: absolute;
+    width: 311px;
+    height: 20px;
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0065FF;
+    top: 20px;
+    left: 8px;
+}
+/* HEADING SECTION ENDS */
+
+/* INPUT TYPE TEXT STARTS */
 input[type=text]{
     width: 90%;
     border: 2px solid ;
@@ -55,26 +57,9 @@ input[type=text]:focus{
     border-color: #0065FF;
     box-shadow: 0 0 8px 0 #0065FF;
 }
+/* INPUT TYPE TEXT ENDS */
 
-a{
-    text-decoration: none;
-    font-family: initial;
-    position: absolute;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 8px;
-    color: #ffffff;
-}
-a:hover{
-    width: 90px;
-    height: 38px;
-    color: #0747A6;
-    background: #ffffff;
-    border: 1px solid #0747A6;
-    border-radius: 32px;
-    transform: ease 0.3 sec;
-}
-
+/* INPUT TYPE TEXT STARTS */
 .newheading{
     position: absolute;
     width: 311px;
@@ -157,6 +142,20 @@ border-color: #0065FF;
 box-shadow: 0 0 8px 0 #0065FF;
 }
 
+/* ADD BUTTON STARTS */
+.addbtn{
+    position: absolute;
+    border: 2px solid rgb(4, 122, 4);
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: rgb(4, 122, 4);
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 250px;
+}
+
 a{
     text-decoration: none;
     font-family: initial;
@@ -169,13 +168,25 @@ a{
 a:hover{
     width: 90px;
     height: 38px;
-    color: #0747A6;
+    color: green;
     background: #ffffff;
-    border: 1px solid #0747A6;
+    border: 1px solid green;
     border-radius: 32px;
     transform: ease 0.3 sec;
 }
+/* ADD BUTTON ENDS */
 
-.student-form{
-    margin-top: 65px;
+/* ADD BUTTON STARTS */
+.removebtn{
+    position: absolute;
+    border: 2px solid red;
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: red;
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 350px;
 }
+/* REMOVE BUTTON ENDS */

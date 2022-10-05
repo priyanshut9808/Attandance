@@ -1,121 +1,23 @@
+/* WHOLE BODY STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* Body styling end */
+/* WHOLE BODY STYLING ENDS */
+
+/* HEADER SECTION STARTS */
 header img{
 position: absolute;
 width: 100%;
 height: 150px;
 top: 0px;
 }
-/* header image styling end */
+/* HEADER SECTION ENDS */
 
-.container-section{
-    margin-top: 150px;
-    background: #e6edf6;
-    height: 520px;
-    width: 100%;
-}
-
-.student-login-btn{
-    position: absolute;
-    width: 190px;
-    height: 50px;
-    left: calc(50% - 216px/2);
-    top: calc(50% - 64px/2);
-    background: #0747A6;
-    border-radius: 32px;
-    border: 1px solid #ffffff;
-    line-height: 8px;
-}
-
-.student-login-btn a{
-    text-decoration: none;
-    font-family: initial;
-    position: absolute;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px;
-    color: #ffffff;
-}
-
-.student-login-btn a:hover{
-    width: 190px;
-    height: 50px;
-    color: #0747A6;
-    background: #ffffff;
-    border: 1px solid #0747A6;
-    border-radius: 32px;
-    transform: ease 0.3 sec;
-}
-
-.teacher-login-btn{
-    position: absolute;
-    width: 190px;
-    height: 50px;
-    left: calc(50% - 216px/2);
-    top: calc(50% - 64px/2 + 100px);
-    background: #0747A6;
-    border-radius: 32px;
-    border: 1px solid #ffffff;
-    line-height: 8px;
-}
-
-.teacher-login-btn a{
-    text-decoration: none;
-    font-family: initial;
-    position: absolute;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px;
-    color: #ffffff;
-}
-
-.teacher-login-btn a:hover{
-    width: 190px;
-    height: 50px;
-    color: #0747A6;
-    background: #ffffff;
-    border: 1px solid #0747A6;
-    border-radius: 32px;
-    transform: ease 0.3 sec;
-}
-
-.newuserbtn{
-    position: absolute;
-    line-height: 15px;
-    width: 127px;
-    height: 50px;
-    left: 1150px;
-    top: 207px;
-    background: #0747A6;
-    border-radius: 32px;
-    border: 1px solid #ffffff;
-}
-
-.newuserbtn a{
-    text-decoration: none;
-    font-family: initial;
-    position: absolute;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px;
-    color: #ffffff;
-}
-
-.newuserbtn a:hover{
-    width: 127px;
-    height: 50px;
-    color: #0747A6;
-    background: #ffffff;
-    border: 1px solid #0747A6;
-    border-radius: 32px;
-    transform: ease 0.5 sec;
-}
-/* logint buttons styling end */
-
+/* NAVIGATION SECTION STARTS */
 nav{
     position: absolute;
     height: 45px;
@@ -150,9 +52,120 @@ a.active, a:hover{
     color: #0747A6;
     transition: .5s;
 }
+/* NAVIGATION SECTION ENDS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* CONTAINER SECTION STARTS */
+.container-section{
+    margin-top: 150px;
+    background: #e6edf6;
+    height: 520px;
+    width: 100%;
+}
+/* CONTAINER SECTION ENDS */
 
+/* NEW USER BUTTON STARTS */
+.newuserbtn{
+    position: absolute;
+    line-height: 15px;
+    width: 127px;
+    height: 50px;
+    left: 1150px;
+    top: 207px;
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+}
+
+.newuserbtn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.newuserbtn a:hover{
+    width: 127px;
+    height: 50px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.5 sec;
+}
+/* NEW USER BUTTON ENDS */
+
+/* STUDENT LOGIN BUTTON STARTS */
+.student-login-btn{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    left: calc(50% - 216px/2);
+    top: calc(50% - 64px/2);
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+    line-height: 8px;
+}
+
+.student-login-btn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.student-login-btn a:hover{
+    width: 190px;
+    height: 50px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+/* STUDENT LOGIN BUTTON ENDS */
+
+/* TEACHER LOGIN BUTTON STARTS */
+.teacher-login-btn{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    left: calc(50% - 216px/2);
+    top: calc(50% - 64px/2 + 100px);
+    background: #0747A6;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+    line-height: 8px;
+}
+
+.teacher-login-btn a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.teacher-login-btn a:hover{
+    width: 190px;
+    height: 50px;
+    color: #0747A6;
+    background: #ffffff;
+    border: 1px solid #0747A6;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+/* TEACHER LOGIN BUTTON ENDS */
+
+/* FOOTER SECTION STARTS */
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -224,9 +237,10 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+/* FOOTER SECTION ENDS */
 
-/* /responsive/ */
-@media(max-width: 767px)
+/* RESPONSIVENESS */
+/* @media(max-width: 767px)
 {
   .footer-col{
     width: 50%;
@@ -244,50 +258,10 @@ nav{
     top: 81px;
 }
 
-    .newuserbtn{
-        position: absolute;
-        line-height: 15px;
-        width: 127px;
-        height: 50px;
-        left: 350px;
-        top: 80%;
-        background: #0747A6;
-        border-radius: 32px;
-        border: 1px solid #ffffff;
-    }
-    
-    .newuserbtn a{
-        text-decoration: none;
-        font-family: initial;
-        position: absolute;
-        font-weight: 700;
-        font-size: 18px;
-        padding: 20px;
-        color: #ffffff;
-    }
-    
-    .newuserbtn a:hover{
-        width: 127px;
-        height: 50px;
-        color: #0747A6;
-        background: #ffffff;
-        border: 1px solid #0747A6;
-        border-radius: 32px;
-        transform: ease 0.5 sec;
-    }
-
-    .container-section{
-        margin-top: 120px;
-        background: #e6edf6;
-        height: 500px;
-        width: 100%;
-    }
 
 }
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
 }
-}
-
-/* Footer section end */
+} */

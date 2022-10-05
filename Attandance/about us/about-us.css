@@ -1,9 +1,16 @@
+/* WHOLE BODY STYLING START */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* WHOLE BODY STYLING END */
+
+/* NAVIGATION MENU START */
 nav{
     position: absolute;
     height: 45px;
@@ -39,15 +46,20 @@ a.active, a:hover{
     transition: .5s;
 }
 
+/* NAVIGATION MENU END */
+
+/* MIDDLE / MAIN CONTAINER START */
+
 .container-section{
     height: 600px;
     width: 100%;
     background: #ffffff;
 }
 
-/* Footer section */
+/* MIDDLE / MAIN CONTAINER END */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* FOOTER SECTION START */
 
 .container{
 	max-width: 1170px;
@@ -121,7 +133,11 @@ ul{
 	background-color: #ffffff;
 }
 
-/* /responsive/ */
+/* FOOTER SECTION ENDS */
+
+
+/* MEDIA QUERY FOR RESPONSIVE DESIGN STARTS */
+
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -134,4 +150,4 @@ ul{
 }
 }
 
-/* Footer section end */
+/* MEDIA QUERY FOR RESPONSIVE DESIGN ENDS */

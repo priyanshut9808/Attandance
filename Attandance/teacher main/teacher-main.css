@@ -1,8 +1,14 @@
+/* WHOLE BODY STYLING STARTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+/* WHOLE BODY STYLING ENDS */
+
+/* NAVIGATION SECTION STARTS */
 nav{
     position: absolute;
     height: 45px;
@@ -36,14 +42,17 @@ a.active, a:hover{
     transition: .5s;
 }
 
+/* NAVIGATION SECTION ENDS */
+
+/* MIDDLE CONTAINER SECTION STARTS */
 .container-section{
     background: #e6edf6;
     height: 520px;
     width: 100%;
 }
+/* MIDDLE CONTAINER SECTION ENDS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+/* FOOTER SECTION STARTS */
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -114,8 +123,9 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+/* FOOTER SECTION ENDS */
 
-/* /responsive/ */
+
 @media(max-width: 767px){
   .footer-col{
     width: 50%;

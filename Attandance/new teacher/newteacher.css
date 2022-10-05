@@ -1,9 +1,12 @@
+/* WHOLE BODY STYLING STARTS*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* WHOLE BODY STYLING ENDS*/
 
+/* CONTAINER SECTION STARTS*/
 .container{
     position: absolute;
     height: 437px;
@@ -15,11 +18,42 @@
     border-radius: 5px;
 }
 
-input[type=text]{
+.newbox-1{
+    position: absolute;
+    width: 459px;
+    height: 391px;
+    left: 21px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+/* CONTAINER SECTION ENDS*/
+
+/* HEADING SECTION STARTS */
+.newheading{
+    position: absolute;
+    width: 311px;
+    height: 20px;
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0065FF;
+    top: 20px;
+    left: 8px;
+}
+/* HEADING SECTION ENDS */
+
+/* TEXT INPUT SECTION STARTS */
+.newinput  input[type=text]{
     width: 90%;
     border: 2px solid ;
     border-radius: 4px;
-    margin-top: 140px;
+    margin-top: 70px;
     outline: none;
     padding: 8px;
     margin-left: 10px;
@@ -28,8 +62,10 @@ input[type=text]{
 input[type=text]:focus{
     border-color: #0065FF;
     box-shadow: 0 0 8px 0 #0065FF;
-}
+    }
+/* TEXT INPUT SECTION ENDS */
 
+/* EMAIL INPUT SECTION STARTS */
 input[type=email]{
     width: 90%;
     border: 2px solid ;
@@ -44,33 +80,60 @@ input[type=email]:focus{
     border-color: #0065FF;
     box-shadow: 0 0 8px 0 #0065FF;
 }
+/* EMAIL INPUT SECTION ENDS */
 
-.addbtn{
-    position: absolute;
-    border: 2px solid rgb(4, 122, 4);
-    height: 38px;
-    width: 90px;
-    padding: 8px 12px;
-    background-color: rgb(4, 122, 4);
-    border-radius: 35px;
-    text-align: center;
-    top: 340px;
-    left: 250px;
+/* PASSWORD INPUT SECTION STARTS */
+.newinput input[type=password]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+    }
+
+    input[type=password]:focus{
+        border-color: #0065FF;
+        box-shadow: 0 0 8px 0 #0065FF;
+        }
+/* PASSWORD INPUT SECTION ENDS */
+
+/* FILE INPUT SECTION STARTS */
+.newinput input[type=file]{
+width: 90%;
+border: 2px solid ;
+border-radius: 4px;
+margin-top: 20px;
+outline: none;
+padding: 8px;
+margin-left: 10px;
 }
 
-.removebtn{
-    position: absolute;
-    border: 2px solid red;
-    height: 38px;
-    width: 90px;
-    padding: 8px 12px;
-    background-color: red;
-    border-radius: 35px;
-    text-align: center;
-    top: 340px;
-    left: 350px;
+input[type=file]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+    }
+/* FILE INPUT SECTION ENDS */
+
+/* NUMBER INPUT SECTION STARTS */
+input[type=number]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
 }
 
+input[type=number]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+/* NUMBER INPUT SECTION ENDS */
+
+/* ADD BUTTON STARTS */
 a{
     text-decoration: none;
     font-family: initial;
@@ -91,84 +154,31 @@ a:hover{
     transform: ease 0.3 sec;
 }
 
-.newheading{
+.addbtn{
     position: absolute;
-    width: 311px;
-    height: 20px;
-    font-family: 'Arima Madurai';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    display: flex;
-    align-items: center;
+    border: 2px solid rgb(4, 122, 4);
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: rgb(4, 122, 4);
+    border-radius: 35px;
     text-align: center;
-    color: #0065FF;
-    top: 20px;
-    left: 8px;
+    top: 340px;
+    left: 250px;
 }
+/* ADD BUTTON ENDS */
 
-.newbox-1{
+/* REMOVE BUTTON STARTS */
+.removebtn{
     position: absolute;
-    width: 459px;
-    height: 391px;
-    left: 21px;
-    top: 30px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
+    border: 2px solid red;
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: red;
+    border-radius: 35px;
+    text-align: center;
+    top: 340px;
+    left: 350px;
 }
-
-.newinput  input[type=text]{
-    width: 90%;
-    border: 2px solid ;
-    border-radius: 4px;
-    margin-top: 70px;
-    outline: none;
-    padding: 8px;
-    margin-left: 10px;
-}
-
-.newinput input[type=password]{
-width: 90%;
-border: 2px solid ;
-border-radius: 4px;
-margin-top: 20px;
-outline: none;
-padding: 8px;
-margin-left: 10px;
-}
-
-.newinput input[type=file]{
-width: 90%;
-border: 2px solid ;
-border-radius: 4px;
-margin-top: 20px;
-outline: none;
-padding: 8px;
-margin-left: 10px;
-}
-
-input[type=password]:focus{
-border-color: #0065FF;
-box-shadow: 0 0 8px 0 #0065FF;
-}
-
-input[type=number]{
-    width: 90%;
-    border: 2px solid ;
-    border-radius: 4px;
-    margin-top: 20px;
-    outline: none;
-    padding: 8px;
-    margin-left: 10px;
-}
-
-input[type=number]:focus{
-    border-color: #0065FF;
-    box-shadow: 0 0 8px 0 #0065FF;
-}
-
-input[type=file]:focus{
-border-color: #0065FF;
-box-shadow: 0 0 8px 0 #0065FF;
-}
+/* REMOVE BUTTON ENDS */

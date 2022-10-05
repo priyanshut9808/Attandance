@@ -1,9 +1,14 @@
+/* WHOLE BODY STYLING STARTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* WHOLE BODY STYLING ENDS */
 
+/* NAVIGATION SECTION STARTS */
 nav{
     position: absolute;
     height: 45px;
@@ -38,17 +43,17 @@ a.active, a:hover{
     color: #0747A6;
     transition: .5s;
 }
+/* NAVIGATION SECTION ENDS */
 
+/* MIDDLE CONTAINER SECTION STARTS */
 .container-section{
     height: 600px;
     width: 100%;
     background: #ffffff;
 }
+/* MIDDLE CONTAINER SECTION STARTS */
 
-/* Footer section */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+/* FOOTER SECTION STARTS */
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -119,7 +124,8 @@ ul{
 	background-color: #ffffff;
 }
 
-/* /responsive/ */
+/* FOOTER SECTION ENDS */
+
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -132,4 +138,3 @@ ul{
 }
 }
 
-/* Footer section end */

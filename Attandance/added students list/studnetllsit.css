@@ -1,8 +1,12 @@
+/* WHOLE BODY STYLING START */
+
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
+/* WHOLE BODY STYLING START */
 nav{
     position: absolute;
     height: 45px;
@@ -73,10 +77,8 @@ a.active, a:hover{
     color: #0747A6;
     background: #ffffff;
     border: 1px solid #0747A6;
-    /* border-radius: 32px; */
     transform: ease 0.3 sec;
 }
-
 
 .searchbox{
 	float: right;
