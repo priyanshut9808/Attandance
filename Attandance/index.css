@@ -22,9 +22,33 @@ nav{
     position: absolute;
     top: 150px;
     width: 100%;
-    height: 40px;
+    height: 45px;
     background: #0747A6;
 }
+
+.navbtn{
+    position: relative;
+    top: 12px;
+    color: #0747A6;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 7px;
+    margin: 4px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+/* .dropdown .navbtn a:hover{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 7px;
+    margin: 4px;
+    background: #0747A6;
+    border-radius: 5px;
+} */
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -58,7 +82,6 @@ nav{
     background: #0747A6;
     color: #ddd;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
 }
   
   .dropdown:hover .dropdown-content {
@@ -68,7 +91,7 @@ nav{
   .dropdown:hover .dropbtn {
     background-color: #ffffff;
     color: #0747A6;
-    height: 40px;
+    height: 400px;
     border-radius: 6px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }

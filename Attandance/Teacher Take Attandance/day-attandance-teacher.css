@@ -299,6 +299,46 @@ table, td, th{
     text-decoration: none;
     border: 1px solid green;
 }
+
+    .present{
+    position: relative;
+    margin: 2px;
+    top: 35%;
+    padding: 12px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+
+    }
+
+.present input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.absent{
+    margin: 5px;
+    position: relative;
+    top: 35%;
+    padding: 12px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+
+}
+
+.absent input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .container{
@@ -369,6 +409,33 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+
+.box-out{
+    display: inline-block;
+    width: 210px;
+    height: 260px;
+    padding: 20px 10px 0 0;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: #385e9e;
+    color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+
+.image img{
+    border: solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.details{
+    position: relative;
+    padding: 15px;
+    height: 60%;
+    width: 100%;
 }
 
 /* /responsive/ */
